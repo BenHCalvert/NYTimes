@@ -15,7 +15,40 @@
 
 </head>
 <body>
-    
+    <header>
+        <h1>New York Times Search</h1>
+    </header>
+
+    <div id="user-inputs">
+        <h2>Search Parameters: </h2>
+        <form id = "search-form">
+            Search Term: 
+            <input type="text" id = "search-term" name="searchterm"><br>
+
+            Number of records to retrieve: 
+            <input type="number" id = "record-number" name="recordnumber" min="1" max="10"><br>
+
+            Start Year (Optional): 
+            <input type="number" minlength ="4" maxlength ="4" id = "start-year" name="startyear"><br>
+
+            End Year (Optional): 
+            <input type="number" minlength ="4" maxlength ="4" id = "end-year" name="endyear"><br>
+
+            Search
+            <input type="button" id="search-button" value="Search">
+
+            Clear Results
+            <input type="button" id="clear-button" value="Clear Results">
+        </form>
+    </div>
+
+    <div id="results-section">
+        <h2>Top Articles</h2>
+        <div id="top-articles"></div>
+    </div>
+
+    <footer>Made with lots and lots of &#9829;</footer>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
