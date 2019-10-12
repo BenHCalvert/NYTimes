@@ -1,3 +1,65 @@
+<<<<<<< HEAD
+header {
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+    font-size: 24px;
+    padding: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 1px;
+}
+
+h2 {
+    font-size: 18px;
+    background-color: lightgray;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+    border-bottom-radius: 4px;
+    border-bottom-width: 1px;
+    padding: 10px;
+}
+
+#user-inputs {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: gray;
+    border-width: 1px;
+}
+
+#results-section {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: gray;
+    border-width: 1px;
+}
+
+#search-form {
+    padding: 10px;
+    line-height: 30px;
+}
+
+button {
+    width: 25%;
+}
+
+input {
+    width: 100%;
+}
+
+
+=======
 #header{
     
 }
+>>>>>>> 3688be5bfadd668592cb0d660aff3d97a4139e1e
